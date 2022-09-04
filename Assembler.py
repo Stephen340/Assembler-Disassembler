@@ -97,7 +97,6 @@ def doAInstruction(line):
 def doCInstruction(line):
     line = line[:-1]
     line = line.strip()
-    #print(line + "before we modify")
     if "=" not in line: #need to check for dest = comp
         line = "null=" + line
     if ";" not in line: #need to check for jump
@@ -107,12 +106,8 @@ def doCInstruction(line):
         line += "null"
     lists = re.split("=|;", line)
     destRet = destTable.get(lists[0])
-    #print(destRet)
     compRet = compTable.get(lists[1])
-    #print(lists[1] + "val at [1]")
-    #print(compRet)
     jumpRet = jumpTable.get(lists[2])
-    #print(jumpRet)
     return compRet, destRet, jumpRet
     
 

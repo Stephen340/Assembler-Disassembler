@@ -71,11 +71,8 @@ def getCInstruction(line):
     return totalLine
     
 def getAInstruction(line):
-    #print(line)
     numA = int(line,2)
-    #print(numA)
     totalLine = "@" + str(numA)
-    #print(totalLine)
     return totalLine
 
 def findAssemblyInstructions():
