@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 This file is the assembler. It will take hack assembly language instructions and convert them
-into hack binary instructions
+into binary instructions
 """
 import re #need this for re.split(). Could do without but looks nicer this way.
 
