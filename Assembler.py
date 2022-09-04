@@ -1,17 +1,8 @@
 # -*- coding: utf-8 -*-
 """
-NAME AND UIN: Stephen Johnson 630006859
-Assembler.py
-
-Take a file and convert into necesary instructions.
-For reference on step order and process, see 
-    LAB 21 - HACK Assembler_ Overall Construction.pptx. and associated video
-Included the LAB 22 main method inside of created methods when following LAB 21
-    because I was not aware the main would be created separate in LAB 22.
+This file is the assembler. It will take hack assembly language instructions and convert them
+into hack binary instructions
 """
-
-""" We first need our three HashTables, or dictionaries as called in Python """
-
 import re #need this for re.split(). Could do without but looks nicer this way.
 
 #This table will include whether a=0 or a=1

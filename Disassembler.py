@@ -1,7 +1,5 @@
 # -*- coding: utf-8 -*-
 """
-NAME AND UIN: Stephen Johnson 630006859
-
 This file is the disassembler. It will take binary instructions and convert them
 into hack assembly language instructions
 """
